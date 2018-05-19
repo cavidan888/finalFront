@@ -1,0 +1,33 @@
+﻿$topBarBackColor: #00b894;
+$topBarBorderColor: #1dd1a1;
+$topBarFontFamily: 'Open Sans', sans-serif;
+
+
+$navBarBackColor:#ffffff78;
+
+*{
+
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+body{
+    
+}
+
+.active{
+
+    visibility:visible;
+    transition:0.5s ease;
+}
+
+.clear{
+	clear:both;
+}
+
+
+@import "lib/topBar";
+@import "lib/navBar";
+@import "lib/slide";
+@import "lib/about";
